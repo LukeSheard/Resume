@@ -1,0 +1,126 @@
+PWD /Users/LukeSheard/Google Drive/Resume/LukeSheard
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt
+INPUT resume.tex
+OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.log
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1enc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmr.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3enc.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT fontawesome.sty
+INPUT fontawesome.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/realscripts/realscripts.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/realscripts/realscripts.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/metalogo/metalogo.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/metalogo/metalogo.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux
+OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
+OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux

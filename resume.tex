@@ -1,0 +1,135 @@
+\documentclass[10pt]{article}
+
+% =========================
+%  Document Layout
+% =========================
+\usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
+\usepackage{multirow, tabularx}
+
+    % =====================
+    %  Fonts and Colors
+    % =====================
+        \usepackage{hyperref}
+
+        \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor}
+
+        % Fonts
+        \usepackage{fontspec, fontawesome, xltxtra, xunicode}
+
+        \defaultfontfeatures{Mapping=tex-text}
+        \setromanfont[Mapping=tex-text]{Source Sans Pro}
+        \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Source Sans Pro}
+
+        % Colors
+        \usepackage[usenames,dvipsnames]{xcolor}
+
+        \definecolor{lines}{HTML}{444444}
+        \definecolor{body}{HTML}{00061B}
+        \definecolor{highlight}{HTML}{012194}
+        \definecolor{linkcolor}{HTML}{0074FF}
+        \definecolor{headings}{HTML}{0054B8}
+
+    % ==================
+    %  Title & Headings
+    % ==================
+        \usepackage{titlesec}
+
+        \titleformat{\section}{
+            \color{headings}
+            \scshape
+            \Large
+            \raggedright
+        }{}{0em}{}[
+            \color{lines}
+            \titlerule
+        ]
+
+        \titlespacing{\section}{0pt}{0pt}{5pt}
+
+
+\begin{document}
+    % Set Document to Body Color
+    \color{body}
+
+    % ==================
+    %  Title Section
+    % ==================
+        \begin{minipage}[t]{\textwidth}
+            TITLE
+        \end{minipage}
+
+    % ==================
+    %  Body
+    % ==================
+        \begin{minipage}[t]{0.6\textwidth}
+            % ==================
+            %  Left Column
+            % ==================
+            \vspace{0pt}
+
+            %  Work Experience
+            % ==================
+            \section{Work Experience}
+
+            {
+                % Dates
+                {\small \textsc{
+                    Improving Outcomes, CA
+                    \hfill
+                    {\raggedleft
+                        May 2015 - Present
+                    }}
+                }
+
+                % Title
+                {\raggedright\large {
+                    Lead Front End Engineer
+                } \\}
+
+                % Website
+                {\small {
+                    \href{http://www.outcomes.com}{www.outcomes.com}
+                } \vspace{5pt}}
+
+                % Description
+                \normalsize{
+                    Improving Outcomes is a medical tech startup aiming to improve the quality of life for patients post surgery. \\
+                    - Lead developer of provider facing application. \\
+                    - Single handledly developed company intranet site.
+
+                    { \vspace{5pt}
+                        \small Stack: {
+                            \color{highlight}
+                            Git,
+                            Node.js,
+                            Express.js,
+                            MongoDB,
+                            Angular.js,
+                            d3
+                        }
+                    }
+                }\\
+            }
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.35\textwidth}
+            % ==================
+            %  Right Column
+            % ==================
+            \vspace{0pt}
+
+            %  Education
+            % ==================
+            \section{Education}
+            {\small {
+                \textit{University of York, UK}
+                \hfill
+                {\raggedleft
+                    \textsc{Oct 2012 - Present}
+                }
+            } \\}
+            {\raggedright {
+                MMath Mathematics
+            } \\}
+        \end{minipage}
+\end{document}

@@ -1,0 +1,6 @@
+{
+    "project": "Resume",
+    "root": "resume.tex",
+    "program": "xelatex",
+    "output": "compiled"
+}
