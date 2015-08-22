@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1440240035 "resume.tex" "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf" "resume" 1440240036
-  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux" 1440240036 798 cbde3783a9e5af61df39cc33b953133a ""
+["pdflatex"] 1440240265 "resume.tex" "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf" "resume" 1440240266
+  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux" 1440240266 798 cbde3783a9e5af61df39cc33b953133a ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -59,17 +59,17 @@
   "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
   "/usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt" 1432479679 3445950 7f6125c6eb78b33bcedbe55e49dbfd83 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "compiled/resume.aux" 1440240036 798 cbde3783a9e5af61df39cc33b953133a ""
-  "compiled/resume.out" 1440240036 97 cd60e20f1216291710380c43973b0f28 ""
+  "compiled/resume.aux" 1440240266 798 cbde3783a9e5af61df39cc33b953133a ""
+  "compiled/resume.out" 1440240266 97 cd60e20f1216291710380c43973b0f28 ""
   "fontawesome.sty" 1439751627 45738 b2d0a4e61a3e0d6f34415fd6e81c74d3 ""
   "resume.tex" 1440239400 2467 77fbbebbbd55525f2bef2ac111132dc1 ""
-  "tex/education/berkeley.tex" 1440240035 309 4497a9060e00a66dafcec80908a5c863 ""
-  "tex/education/york.tex" 1440240029 308 b85c44c55bf4d500982449ac1750fce8 ""
+  "tex/education/berkeley.tex" 1440240138 286 f07f8395ac0e0ffe52e289eb0d924385 ""
+  "tex/education/york.tex" 1440240138 285 45169829906d877794c29518d83049df ""
   "tex/positions/outcomes.tex" 1440239863 844 a073ce98d6cf39debf37c1bf8113b241 ""
   (generated)
-  "compiled/resume.aux"
-  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux"
-  "compiled/resume.log"
   "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.log"
   "compiled/resume.out"
   "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf"
+  "compiled/resume.aux"
+  "compiled/resume.log"
+  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux"
