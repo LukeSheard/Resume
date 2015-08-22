@@ -3,8 +3,9 @@
 % =========================
 %  Document Layout
 % =========================
-\usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
+\usepackage[hmargin=1cm, vmargin=1cm]{geometry}
 \usepackage{multirow, tabularx}
+
 \pagestyle{empty}
 
     % =====================
@@ -47,6 +48,18 @@
 
         \titlespacing{\section}{0pt}{0pt}{5pt}
 
+    % ==================
+    %  Custom Commands
+    % ==================
+
+        % Line Rule
+        \newcommand{\ruleLine}{
+            \begin{center}
+                \color{highlight}
+                \rule{0.5\textwidth}{.4pt}
+            \end{center}
+        }
+
 
 \begin{document}
     % Set Document to Body Color
@@ -58,9 +71,29 @@
     % ==================
     %  Title Section
     % ==================
-        \begin{minipage}[t]{\textwidth}
-            TITLE
+    \begin{minipage}[t]{\textwidth}
+        \begin{minipage}[c]{0.18\textwidth}
+            \vspace{-10pt}
+            \includegraphics[scale=0.35]{images/me.png}
         \end{minipage}
+        \begin{minipage}{0.78\textwidth}
+            {\Huge
+                Luke Sheard
+            } \\
+
+            { \vspace{-10pt}
+                Javascript engineer, with applied mathematics background, specializing in Node.js web applications. Seeking graduate opportunities in full stack web development.
+            }\\
+
+            \begin{tabular}{c|l}
+                \faPhone        & +1 (510) 701-5071                                                                 \\
+                \faEnvelope     & \href{mailto:me@lukesheard.com}{me@lukesheard.com}                                \\
+                \faLinkedin     & \href{http://www.linkedin.com/in/lukesheard}{www.linkedin.com/in/lukesheard}
+            \end{tabular}
+        \end{minipage}
+
+        \vspace{15pt}
+    \end{minipage}
 
     % ==================
     %  Body
@@ -77,6 +110,9 @@
 
             % Outcomes
             \input{tex/positions/outcomes.tex}
+
+                % Rule Underneath
+                \ruleLine
 
         \end{minipage}
         \hfill
