@@ -52,6 +52,9 @@
     % Set Document to Body Color
     \color{body}
 
+    % Ignore Whitespace
+    \catcode9=9\relax     % Horizontal Tab
+
     % ==================
     %  Title Section
     % ==================
@@ -73,7 +76,7 @@
             \section{Work Experience}
 
             % Outcomes
-            \input{positions/outcomes.tex}
+            \input{tex/positions/outcomes.tex}
 
         \end{minipage}
         \hfill
@@ -86,43 +89,11 @@
             %  Education
             % ==================
             \section{Education}
-            {\small\raggedright
-                {
-                    \textsc{
-                        University of York; UK
-                        \hfill
-                        {\raggedleft
-                            Grad. 2016
-                        }
-                    }
-                } \\
 
-                \large{
-                    MMath Mathematics
-                } \\
-                \normalsize{
-                    Master's in mathematics specializing in data modelling and numerical analysis.
-                } \\
-                \vspace{10pt}
-            }
+            % York
+            \input{tex/education/york.tex}
 
-            {\small\raggedright
-                {
-                    \textsc{
-                        UC Berkeley; CA, USA
-                        \hfill
-                        {\raggedleft
-                            Grad. 2016
-                        }
-                    }
-                } \\
-
-                \large{
-                    MMath Mathematics
-                } \\
-                \normalsize{
-                    Master's in mathematics specializing in data modelling and numerical analysis.
-                } \\
-            }
+            % Berkeley
+            \input{tex/education/berkeley.tex}
         \end{minipage}
 \end{document}

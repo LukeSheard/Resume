@@ -123,6 +123,10 @@ OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.out
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-INPUT positions/outcomes.tex
-INPUT positions/outcomes.tex
+INPUT tex/positions/outcomes.tex
+INPUT tex/positions/outcomes.tex
+INPUT tex/education/york.tex
+INPUT tex/education/york.tex
+INPUT tex/education/berkeley.tex
+INPUT tex/education/berkeley.tex
 INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux
