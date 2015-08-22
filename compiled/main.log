@@ -520,7 +520,7 @@ LaTeX Info: Redefining \scshape on input line 2240.
 LaTeX Info: Redefining \upshape on input line 2245.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(./fontawesome.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2013/05/10 v3.1.1 font awesome icons
 \g__file_internal_ior=\read1
 .................................................
@@ -998,8 +998,8 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 135.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 22121 strings out of 493706
- 409359 string characters out of 6145769
+ 22122 strings out of 493706
+ 409528 string characters out of 6145769
  460796 words of memory out of 5000000
  25311 multiletter control sequences out of 15000+600000
  4160 words of font info for 35 fonts, out of 8000000 for 9000

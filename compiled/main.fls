@@ -90,8 +90,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
-INPUT fontawesome.sty
-INPUT fontawesome.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/realscripts/realscripts.sty
