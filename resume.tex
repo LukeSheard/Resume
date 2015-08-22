@@ -5,6 +5,7 @@
 % =========================
 \usepackage[hmargin=1.25cm, vmargin=1.25cm]{geometry}
 \usepackage{multirow, tabularx}
+\pagestyle{empty}
 
     % =====================
     %  Fonts and Colors
@@ -71,45 +72,9 @@
             % ==================
             \section{Work Experience}
 
-            {
-                % Dates
-                {\small \textsc{
-                    Improving Outcomes, CA
-                    \hfill
-                    {\raggedleft
-                        May 2015 - Present
-                    }}
-                }
+            % Outcomes
+            \input{positions/outcomes.tex}
 
-                % Title
-                {\raggedright\large {
-                    Lead Front End Engineer
-                } \\}
-
-                % Website
-                {\small {
-                    \href{http://www.outcomes.com}{www.outcomes.com}
-                } \vspace{5pt}}
-
-                % Description
-                \normalsize{
-                    Improving Outcomes is a medical tech startup aiming to improve the quality of life for patients post surgery. \\
-                    - Lead developer of provider facing application. \\
-                    - Single handledly developed company intranet site.
-
-                    { \vspace{5pt}
-                        \small Stack: {
-                            \color{highlight}
-                            Git,
-                            Node.js,
-                            Express.js,
-                            MongoDB,
-                            Angular.js,
-                            d3
-                        }
-                    }
-                }\\
-            }
         \end{minipage}
         \hfill
         \begin{minipage}[t]{0.35\textwidth}
@@ -121,15 +86,43 @@
             %  Education
             % ==================
             \section{Education}
-            {\small {
-                \textit{University of York, UK}
-                \hfill
-                {\raggedleft
-                    \textsc{Oct 2012 - Present}
-                }
-            } \\}
-            {\raggedright {
-                MMath Mathematics
-            } \\}
+            {\small\raggedright
+                {
+                    \textsc{
+                        University of York; UK
+                        \hfill
+                        {\raggedleft
+                            Grad. 2016
+                        }
+                    }
+                } \\
+
+                \large{
+                    MMath Mathematics
+                } \\
+                \normalsize{
+                    Master's in mathematics specializing in data modelling and numerical analysis.
+                } \\
+                \vspace{10pt}
+            }
+
+            {\small\raggedright
+                {
+                    \textsc{
+                        UC Berkeley; CA, USA
+                        \hfill
+                        {\raggedleft
+                            Grad. 2016
+                        }
+                    }
+                } \\
+
+                \large{
+                    MMath Mathematics
+                } \\
+                \normalsize{
+                    Master's in mathematics specializing in data modelling and numerical analysis.
+                } \\
+            }
         \end{minipage}
 \end{document}

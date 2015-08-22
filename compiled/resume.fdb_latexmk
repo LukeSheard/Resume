@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1439757301 "resume.tex" "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf" "resume" 1439757302
-  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux" 1439757302 798 cbde3783a9e5af61df39cc33b953133a ""
+["pdflatex"] 1440219307 "resume.tex" "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf" "resume" 1440219308
+  "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux" 1440219308 798 cbde3783a9e5af61df39cc33b953133a ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -59,14 +59,15 @@
   "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
   "/usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt" 1432479679 3445950 7f6125c6eb78b33bcedbe55e49dbfd83 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "compiled/resume.aux" 1439757302 798 cbde3783a9e5af61df39cc33b953133a ""
-  "compiled/resume.out" 1439757302 97 cd60e20f1216291710380c43973b0f28 ""
+  "compiled/resume.aux" 1440219308 798 cbde3783a9e5af61df39cc33b953133a ""
+  "compiled/resume.out" 1440219308 97 cd60e20f1216291710380c43973b0f28 ""
   "fontawesome.sty" 1439751627 45738 b2d0a4e61a3e0d6f34415fd6e81c74d3 ""
-  "resume.tex" 1439757301 3762 e29c10e5b645d595176f1b7adaaf3915 ""
+  "positions/outcomes.tex" 1440219307 923 9d6de97015ba9f89702c9f31349866a5 ""
+  "resume.tex" 1440219089 3388 5fdff5bcff2ccfdbea29c8a6a40982c3 ""
   (generated)
-  "compiled/resume.aux"
-  "compiled/resume.log"
   "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.log"
   "compiled/resume.out"
   "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.aux"
+  "compiled/resume.log"
   "/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/resume.pdf"
+  "compiled/resume.aux"
