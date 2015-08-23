@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 AUG 2015 14:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 AUG 2015 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,24 +903,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--164
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-[1
+(./tex/extracurricular/yorkUltimate.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 31--171
+
+ []
+
+(./tex/extracurricular/bSide.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+ [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
- (/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 165.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+
+(/Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 21936 strings out of 493706
- 406667 string characters out of 6145769
- 459133 words of memory out of 5000000
+ 21943 strings out of 493706
+ 406838 string characters out of 6145769
+ 461133 words of memory out of 5000000
  25135 multiletter control sequences out of 15000+600000
  4160 words of font info for 35 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 46i,10n,102p,10355b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,10n,102p,10355b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/mai
 n.pdf (1 page).
