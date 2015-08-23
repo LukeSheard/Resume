@@ -18,12 +18,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -92,12 +86,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/fontawesome/fontawesome.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xltxtra/xltxtra.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/realscripts/realscripts.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/realscripts/realscripts.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/metalogo/metalogo.sty
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/metalogo/metalogo.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg

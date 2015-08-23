@@ -1,8 +1,17 @@
 # Resume
-This is my LaTeX formatted resume available in PDF to view.
+This is my LaTeX formatted resume available in PDF to view. It is written using LaTeX and is compiled using a xeLaTeX 2015 installation.
 
-#### Download
-You can download a raw PDF version of the file by clicking [here](../../raw/master/compiled/resume.pdf), or view the file by clicking [here](/compiled/resume.pdf)
+You can view the [github file](/compiled/resume.pdf) in browser, or visit [my website](https://www.lukesheard.com) for a more thorough and interactive version. However you can also [download](../../raw/master/compiled/resume.pdf) a PDF version of the file if you wish.
 
-#### Edits
-If you spot any grammatical or spelling errors please let me know by [emailing me](mailto:me@lukesheard.com)
+#### Edits & Corrections
+If you spot any grammatical or spelling errors please let me know by [emailing me](mailto:me@lukesheard.com) or submitting a pull request with the appropriate changes made.
+
+
+### Credits
+Credit must be given to the authors of the following packages which I use in compilation:
+- Geometry
+- HyperRef
+- FontSpec
+- Font Awesome
+- xColor
+- TitleSec
