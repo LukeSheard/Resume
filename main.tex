@@ -3,7 +3,7 @@
 % =========================
 %  Document Layout
 % =========================
-\usepackage[hmargin=1cm, vmargin=1cm]{geometry}
+\usepackage[hmargin=1cm, vmargin={1.25cm, 1cm}]{geometry}
 \usepackage{multirow, tabularx}
 
 \pagestyle{empty}
@@ -13,7 +13,7 @@
     % =====================
         \usepackage{hyperref}
 
-        \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor}
+        \hypersetup{colorlinks, urlcolor=linkcolor, linkcolor=linkcolor}
 
         % Fonts
         \usepackage{fontspec, fontawesome, xltxtra, xunicode}
@@ -28,8 +28,8 @@
         \definecolor{lines}{HTML}{444444}
         \definecolor{body}{HTML}{00061B}
         \definecolor{highlight}{HTML}{012194}
-        \definecolor{linkcolor}{HTML}{0074FF}
-        \definecolor{headings}{HTML}{0054B8}
+        \definecolor{headings}{HTML}{0074FF}
+        \definecolor{linkcolor}{HTML}{0054B8}
 
     % ==================
     %  Title & Headings
@@ -58,6 +58,7 @@
                 \color{highlight}
                 \rule{0.5\textwidth}{.4pt}
             \end{center}
+            \vspace{-5pt}
         }
 
 
@@ -68,28 +69,34 @@
     % Ignore Whitespace
     \catcode9=9\relax     % Horizontal Tab
 
+    % Ragged Edges
+    \raggedright
+
     % ==================
     %  Title Section
     % ==================
     \begin{minipage}[t]{\textwidth}
-        \begin{minipage}[c]{0.18\textwidth}
-            \vspace{-10pt}
-            \includegraphics[scale=0.35]{images/me.png}
+        \begin{minipage}[c]{0.2\textwidth}
+            \includegraphics[scale=0.4]{assets/me.png}
         \end{minipage}
-        \begin{minipage}{0.78\textwidth}
+        \begin{minipage}{0.75\textwidth}
+            \vspace{-2pt}
+
             {\Huge
                 Luke Sheard
             } \\
 
-            { \vspace{-10pt}
+            {\vspace{-5pt}
                 Javascript engineer, with applied mathematics background, specializing in Node.js web applications. Seeking graduate opportunities in full stack web development.
             }\\
 
-            \begin{tabular}{c|l}
-                \faPhone        & +1 (510) 701-5071                                                                 \\
-                \faEnvelope     & \href{mailto:me@lukesheard.com}{me@lukesheard.com}                                \\
-                \faLinkedin     & \href{http://www.linkedin.com/in/lukesheard}{www.linkedin.com/in/lukesheard}
-            \end{tabular}
+            {\hspace{-8pt}
+                \begin{tabular}{c|l}
+                    \faGithub       & \href{https://www.github.com/LukeSheard}{LukeSheard}                                  \\
+                    \faLinkedin     & \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}                          \\
+                    \faEnvelope     & \href{mailto:me@lukesheard.com}{me@lukesheard.com}
+                \end{tabular}
+            }
         \end{minipage}
 
         \vspace{15pt}
@@ -113,6 +120,30 @@
 
                 % Rule Underneath
                 \ruleLine
+
+            % Outcomes
+            \input{tex/positions/freshDental.tex}
+
+                % Rule Underneath
+                \vspace{-10pt}
+                \ruleLine
+
+            % Outcomes
+            \input{tex/positions/goodricke.tex}
+
+                % Rule Underneath
+                \vspace{-10pt}
+                \ruleLine
+
+            % National Trust
+            \input{tex/positions/nationalTrust.tex}
+
+                % Rule Underneath
+                \vspace{-10pt}
+                \ruleLine
+
+            % National Trust
+            \input{tex/positions/blurtit.tex}
 
         \end{minipage}
         \hfill

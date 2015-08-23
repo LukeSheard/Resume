@@ -120,12 +120,20 @@ INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
 INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
 INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
 OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
-INPUT images/me.png
+INPUT assets/me.png
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT tex/positions/outcomes.tex
 INPUT tex/positions/outcomes.tex
+INPUT tex/positions/freshDental.tex
+INPUT tex/positions/freshDental.tex
+INPUT tex/positions/goodricke.tex
+INPUT tex/positions/goodricke.tex
+INPUT tex/positions/nationalTrust.tex
+INPUT tex/positions/nationalTrust.tex
+INPUT tex/positions/blurtit.tex
+INPUT tex/positions/blurtit.tex
 INPUT tex/education/york.tex
 INPUT tex/education/york.tex
 INPUT tex/education/berkeley.tex
