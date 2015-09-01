@@ -18,6 +18,12 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -130,4 +136,6 @@ INPUT tex/extracurricular/yorkUltimate.tex
 INPUT tex/extracurricular/yorkUltimate.tex
 INPUT tex/extracurricular/bSide.tex
 INPUT tex/extracurricular/bSide.tex
+INPUT tex/extracurricular/hazSoc.tex
+INPUT tex/extracurricular/hazSoc.tex
 INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux

@@ -3,7 +3,8 @@
 % =========================
 %  Document Layout
 % =========================
-\usepackage[hmargin=1cm, vmargin={1.25cm, 1cm}]{geometry}
+\usepackage[hmargin=1.5cm, vmargin=1.5cm]{geometry}
+\usepackage{tabularx, setspace}
 
 \pagestyle{empty}
 
@@ -70,6 +71,8 @@
 
     % Ragged Edges
     \raggedright
+
+    \setstretch{1.05}
 
     % ==================
     %  Title Section
@@ -156,20 +159,23 @@
             % ==================
             \section{Education}
 
-            % York
-            \input{tex/education/york.tex}
+                % York
+                \input{tex/education/york.tex}
 
-            % Berkeley
-            \input{tex/education/berkeley.tex}
+                % Berkeley
+                \input{tex/education/berkeley.tex}
 
             %  Education
             % ==================
             \section{Extracurricular}
 
-            % YorkUltimate
-            \input{tex/extracurricular/yorkUltimate.tex}
+                % YorkUltimate
+                \input{tex/extracurricular/yorkUltimate.tex}
 
-            % BSide
-            \input{tex/extracurricular/bSide.tex}
+                % BSide
+                \input{tex/extracurricular/bSide.tex}
+
+                % HAZsoc
+                \input{tex/extracurricular/hazSoc.tex}
         \end{minipage}
 \end{document}
