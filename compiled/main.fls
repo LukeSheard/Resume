@@ -1,9 +1,9 @@
-PWD /Users/LukeSheard/Google Drive/Resume/LukeSheard
+PWD /Users/LukeSheard/Documents/Resume
 INPUT /usr/local/texlive/2015/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt
 INPUT main.tex
-OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.log
+OUTPUT /Users/LukeSheard/Documents/Resume/compiled/main.log
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
@@ -100,20 +100,20 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux
-OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.aux
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.aux
+OUTPUT /Users/LukeSheard/Documents/Resume/compiled/main.aux
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
-OUTPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.out
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.out
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.out
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.out
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.out
+OUTPUT /Users/LukeSheard/Documents/Resume/compiled/main.out
 INPUT assets/me.png
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
@@ -138,4 +138,4 @@ INPUT tex/extracurricular/bSide.tex
 INPUT tex/extracurricular/bSide.tex
 INPUT tex/extracurricular/hazSoc.tex
 INPUT tex/extracurricular/hazSoc.tex
-INPUT /Users/LukeSheard/Google Drive/Resume/LukeSheard/compiled/main.aux
+INPUT /Users/LukeSheard/Documents/Resume/compiled/main.aux
