@@ -1,6 +1,0 @@
-{
-    "project": "Luke Sheard Resume",
-    "root": "main.tex",
-    "program": "xelatex",
-    "output": "compiled"
-}

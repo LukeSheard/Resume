@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  8 SEP 2015 10:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  13 NOV 2015 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -885,16 +885,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 File: assets/me.png Graphic file (type QTm)
  <use  "assets/me.png" >
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 83.
+(Font)              <7> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 83.
+(Font)              <5> on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
@@ -905,7 +905,7 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 (./tex/positions/outcomes.tex) (./tex/positions/freshDental.tex)
 (./tex/positions/goodricke.tex) (./tex/positions/nationalTrust.tex)
 (./tex/positions/blurtit.tex) (./tex/education/york.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 20--164
+Underfull \hbox (badness 10000) in paragraph at lines 20--165
 
  []
 
@@ -915,34 +915,34 @@ Underfull \hbox (badness 2368) in paragraph at lines 13--15
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--167
+Underfull \hbox (badness 10000) in paragraph at lines 18--168
 
  []
 
 (./tex/extracurricular/yorkUltimate.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 31--174
+Underfull \hbox (badness 10000) in paragraph at lines 31--175
 
  []
 
 (./tex/extracurricular/bSide.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 31--177
+Underfull \hbox (badness 10000) in paragraph at lines 31--178
 
  []
 
 (./tex/extracurricular/hazSoc.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 28--180
+Underfull \hbox (badness 10000) in paragraph at lines 28--181
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (/Users/LukeSheard/Documents/Resume/compiled/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 181.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
  22070 strings out of 493706
