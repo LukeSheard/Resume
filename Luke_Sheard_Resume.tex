@@ -1,6 +1,6 @@
 % !TEX program = xelatex
 
-\documentclass[10pt]{article}
+\documentclass[9pt]{article}
 
 % =========================
 %  Document Layout
@@ -22,16 +22,15 @@
 
         \defaultfontfeatures{Mapping=tex-text}
         \setromanfont[Mapping=tex-text]{Source Sans Pro}
-        \setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Source Sans Pro}
 
         % Colors
         \usepackage[usenames,dvipsnames]{xcolor}
 
-        \definecolor{lines}{HTML}{444444}
-        \definecolor{body}{HTML}{00061B}
-        \definecolor{highlight}{HTML}{012194}
-        \definecolor{headings}{HTML}{0074FF}
-        \definecolor{linkcolor}{HTML}{0054B8}
+        \definecolor{lines}{HTML}{ababab}
+        \definecolor{body}{HTML}{444444}
+        \definecolor{headings}{HTML}{28429e}
+        \definecolor{highlight}{HTML}{164479}
+        \definecolor{linkcolor}{HTML}{3387ec}
 
     % ==================
     %  Title & Headings
@@ -57,7 +56,7 @@
         % Line Rule
         \newcommand{\ruleLine}{
             \begin{center}
-                \color{highlight}
+                \color{lines}
                 \rule{0.5\textwidth}{.4pt}
             \end{center}
             \vspace{-5pt}
@@ -81,29 +80,34 @@
     % ========================================
 
     \begin{minipage}[t]{\textwidth}
-        {\Huge
-            Luke Sheard
-        } \\
 
-        {\vspace{-5pt}
-            Javascript engineer specializing in Node.js web applications. 
-        }\\
+        \begin{minipage}[t]{0.5\textwidth}
+            {\Huge
+                Luke Sheard
+            } \\
 
-        {\hspace{-8pt}
-            \begin{tabular}{c|l}
-                \faGithub       & \href{https://www.github.com/LukeSheard}{LukeSheard}                                  \\
-                \faLinkedin     & \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}                          \\
-                \faEnvelope     & \href{mailto:me@lukesheard.com}{me@lukesheard.com}
+            {\vspace{-10pt}
+                Javascript engineer specializing in Node.js web applications.
+            }\\
+        \end{minipage}
+        \hspace{\fill}
+        \begin{minipage}[t]{0.4\textwidth}
+            \hspace{\fill}
+            \begin{tabular}{r|r}
+                \href{https://www.github.com/LukeSheard}{LukeSheard}            & \faGithub     \\
+                \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}    & \faLinkedin   \\
+                \href{mailto:me@lukesheard.com}{me@lukesheard.com}              & \faEnvelope   \\
             \end{tabular}
-        }
+        \end{minipage}
 
-        \vspace{15pt}
+        \vspace{10pt}
     \end{minipage}
 
     % ==================
     %  Body
     % ==================
         \begin{minipage}[t]{0.6\textwidth}
+
             % ==================
             %  Left Column
             % ==================
@@ -173,5 +177,39 @@
 
                 % HAZsoc
                 \input{tex/extracurricular/hazSoc.tex}
+
+            %  Skills
+            % ==================
+            \section{Skill Base}
+            {\raggedright
+                Languages \\
+                {\small
+                    {\color{highlight}
+                        Javascript (Node.js), HTML, (S)CSS, Python, Git,
+                    }
+                    Java, LaTeX, C++
+                }
+                \vspace{5pt}
+
+                Frameworks \\
+                {\small
+                    {\color{highlight}
+                        Angular.js, Express.js, jQuery, Gulp.js,
+                    }
+                    React.js, NumpPy, SciPy, Matplotlib, Flask \\
+                }
+
+                \vspace{5pt}
+
+                3rd Part APIs \\
+                {\small
+                    {\color{highlight}
+                        Sendgrid, AWS,
+                    }
+                    Twilio
+                }
+
+                \hfill\textsc{\footnotesize{{\color{highlight} proficient}| familiar}}
+            }
         \end{minipage}
 \end{document}
