@@ -10,206 +10,204 @@
 
 \pagestyle{empty}
 
-    % =====================
-    %  Fonts and Colors
-    % =====================
-        \usepackage{hyperref}
+  % =====================
+  %  Fonts and Colors
+  % =====================
+  \usepackage{hyperref}
 
-        \hypersetup{colorlinks, urlcolor=linkcolor, linkcolor=linkcolor}
+  \hypersetup{colorlinks, urlcolor=linkcolor, linkcolor=linkcolor}
 
-        % Fonts
-        \usepackage{fontspec, fontawesome}
+  % Fonts
+  \usepackage{fontspec, fontawesome}
 
-        \defaultfontfeatures{Mapping=tex-text}
-        \setromanfont[Mapping=tex-text]{Source Sans Pro}
+  \defaultfontfeatures{Mapping=tex-text}
+  \setsansfont{Source Sans Pro}
+  \setromanfont[Mapping=tex-text]{Source Sans Pro}
 
-        % Colors
-        \usepackage[usenames,dvipsnames]{xcolor}
+  % Colors
+  \usepackage[usenames,dvipsnames]{xcolor}
 
-        \definecolor{lines}{HTML}{ababab}
-        \definecolor{body}{HTML}{444444}
-        \definecolor{headings}{HTML}{28429e}
-        \definecolor{highlight}{HTML}{164479}
-        \definecolor{linkcolor}{HTML}{3387ec}
+  \definecolor{lines}{HTML}{ababab}
+  \definecolor{body}{HTML}{444444}
+  \definecolor{headings}{HTML}{28429e}
+  \definecolor{highlight}{HTML}{164479}
+  \definecolor{linkcolor}{HTML}{3387ec}
 
-    % ==================
-    %  Title & Headings
-    % ==================
-        \usepackage{titlesec}
+  % ==================
+  %  Title & Headings
+  % ==================
+  \usepackage{titlesec}
 
-        \titleformat{\section}{
-            \color{headings}
-            \scshape
-            \Large
-            \raggedright
-        }{}{0em}{}[
-            \color{lines}
-            \titlerule
-        ]
+  \titleformat{\section}{
+    \color{headings}
+    \scshape
+    \Large
+    \raggedright
+  }{}{0em}{}[
+    \color{lines}
+    \titlerule
+  ]
 
-        \titlespacing{\section}{0pt}{0pt}{5pt}
+  \titlespacing{\section}{0pt}{0pt}{5pt}
 
-    % ==================
-    %  Custom Commands
-    % ==================
-
-        % Line Rule
-        \newcommand{\ruleLine}{
-            \begin{center}
-                \color{lines}
-                \rule{0.5\textwidth}{.4pt}
-            \end{center}
-            \vspace{-5pt}
-        }
+  % ==================
+  %  Custom Commands
+  % ==================
+  \newcommand{\ruleLine}{
+    \begin{center}
+      \color{lines}
+      \rule{0.5\textwidth}{.4pt}
+    \end{center}
+    \vspace{-5pt}
+  }
 
 
 \begin{document}
-    % Set Document to Body Color
-    \color{body}
+% Set Document to Body Color
+\color{body}
 
-    % Ignore Whitespace
-    \catcode9=9\relax     % Horizontal Tab
+% Ignore Whitespace
+\catcode9=9\relax     % Horizontal Tab
 
-    % Ragged Edges
-    \raggedright
+% Ragged Edges
+\raggedright
 
-    \setstretch{1.05}
+\setstretch{1.05}
 
-    % ========================================
-    %  Title Section for name and information
-    % ========================================
+% ========================================
+%  Title Section for name and information
+% ========================================
 
-    \begin{minipage}[t]{\textwidth}
+\begin{minipage}[t]{\textwidth}
 
-        \begin{minipage}[t]{0.5\textwidth}
-            {\Huge
-                Luke Sheard
-            } \\
+    \begin{minipage}[t]{0.5\textwidth}
+        {\Huge
+          Luke Sheard
+        } \\
 
-            {\vspace{-10pt}
-                Javascript engineer specializing in Node.js web applications.
-            }\\
-        \end{minipage}
+        {\vspace{-10pt}
+          Full stack engineer specializing in Node.js applications
+        }\\
+    \end{minipage}
+    \hspace{\fill}
+    \begin{minipage}[t]{0.4\textwidth}
         \hspace{\fill}
-        \begin{minipage}[t]{0.4\textwidth}
-            \hspace{\fill}
-            \begin{tabular}{r|r}
-                \href{https://www.github.com/LukeSheard}{LukeSheard}            & \faGithub     \\
-                \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}    & \faLinkedin   \\
-                \href{mailto:me@lukesheard.com}{me@lukesheard.com}              & \faEnvelope   \\
-            \end{tabular}
-        \end{minipage}
-
-        \vspace{10pt}
+        \begin{tabular}{r|r}
+          \href{https://www.github.com/LukeSheard}{LukeSheard}            & \faGithub     \\
+          \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}    & \faLinkedin   \\
+          \href{mailto:me@lukesheard.com}{me@lukesheard.com}              & \faEnvelope   \\
+        \end{tabular}
     \end{minipage}
 
-    % ==================
-    %  Body
-    % ==================
-        \begin{minipage}[t]{0.6\textwidth}
+    \vspace{10pt}
+\end{minipage}
 
-            % ==================
-            %  Left Column
-            % ==================
-            \vspace{0pt}
+% ==================
+%  Body
+% ==================
+\begin{minipage}[t]{0.6\textwidth}
+  % ==================
+  %  Left Column
+  % ==================
+  \vspace{0pt}
 
-            %  Work Experience
-            % ==================
-            \section{Work Experience}
+  %  Work Experience
+  % ==================
+  \section{Work Experience}
 
-            % Outcomes
-            \input{tex/positions/outcomes.tex}
+  % Outcomes
+  \input{tex/positions/outcomes.tex}
 
-                % Rule Underneath
-                \ruleLine
+    % Rule Underneath
+    \ruleLine
 
-            % Outcomes
-            \input{tex/positions/freshDental.tex}
+  % Outcomes
+  \input{tex/positions/freshDental.tex}
 
-                % Rule Underneath
-                \vspace{-10pt}
-                \ruleLine
+    % Rule Underneath
+    \vspace{-10pt}
+    \ruleLine
 
-            % Outcomes
-            \input{tex/positions/goodricke.tex}
+  % Outcomes
+  \input{tex/positions/goodricke.tex}
 
-                % Rule Underneath
-                \vspace{-10pt}
-                \ruleLine
+    % Rule Underneath
+    \vspace{-10pt}
+    \ruleLine
 
-            % National Trust
-            \input{tex/positions/nationalTrust.tex}
+  % National Trust
+  \input{tex/positions/nationalTrust.tex}
 
-                % Rule Underneath
-                \vspace{-10pt}
-                \ruleLine
+    % Rule Underneath
+    \vspace{-10pt}
+    \ruleLine
 
-            % National Trust
-            \input{tex/positions/blurtit.tex}
+  % National Trust
+  \input{tex/positions/blurtit.tex}
 
-        \end{minipage}
-        \hfill
-        \begin{minipage}[t]{0.35\textwidth}
-            % ==================
-            %  Right Column
-            % ==================
-            \vspace{0pt}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+  % ==================
+  %  Right Column
+  % ==================
+  \vspace{0pt}
 
-            %  Education
-            % ==================
-            \section{Education}
+  %  Education
+  % ==================
+  \section{Education}
 
-                % York
-                \input{tex/education/york.tex}
+    % York
+    \input{tex/education/york.tex}
 
-                % Berkeley
-                \input{tex/education/berkeley.tex}
+    % Berkeley
+    \input{tex/education/berkeley.tex}
 
-            %  Education
-            % ==================
-            \section{Extracurricular}
+  %  Education
+  % ==================
+  \section{Extracurricular}
 
-                % YorkUltimate
-                \input{tex/extracurricular/yorkUltimate.tex}
+    % YorkUltimate
+    \input{tex/extracurricular/yorkUltimate.tex}
 
-                % BSide
-                \input{tex/extracurricular/bSide.tex}
+    % BSide
+    \input{tex/extracurricular/bSide.tex}
 
-                % HAZsoc
-                \input{tex/extracurricular/hazSoc.tex}
+    % HAZsoc
+    \input{tex/extracurricular/hazSoc.tex}
 
-            %  Skills
-            % ==================
-            \section{Skill Base}
-            {\raggedright
-                Languages \\
-                {\small
-                    {\color{highlight}
-                        Javascript (Node.js), HTML, (S)CSS, Python, Git,
-                    }
-                    Java, LaTeX, C++
-                }
-                \vspace{5pt}
+  %  Skills
+  % ==================
+  \section{Skill Base}
+  {\raggedright
+    Languages \\
+    {\small
+      {\color{highlight}
+        Javascript (Node.js), HTML, (S)CSS, Python, Git,
+      }
+      Java, LaTeX, C++
+    }
+    \vspace{5pt}
 
-                Frameworks \\
-                {\small
-                    {\color{highlight}
-                        Angular.js, Express.js, jQuery, Gulp.js,
-                    }
-                    React.js, NumpPy, SciPy, Matplotlib, Flask \\
-                }
+    Frameworks \\
+    {\small
+      {\color{highlight}
+        Angular.js, Express.js, jQuery, Gulp.js,
+      }
+      React.js, NumpPy, SciPy, Matplotlib, Flask \\
+    }
 
-                \vspace{5pt}
+    \vspace{5pt}
 
-                3rd Part APIs \\
-                {\small
-                    {\color{highlight}
-                        Sendgrid, AWS,
-                    }
-                    Twilio
-                }
+    3rd Part APIs \\
+    {\small
+      {\color{highlight}
+        Sendgrid, AWS,
+      }
+      Twilio
+    }
 
-                \hfill\textsc{\footnotesize{{\color{highlight} proficient} | prior experience}}
-            }
-        \end{minipage}
+    \hfill\textsc{\footnotesize{{\color{highlight} proficient} | prior experience}}
+  }
+\end{minipage}
 \end{document}
