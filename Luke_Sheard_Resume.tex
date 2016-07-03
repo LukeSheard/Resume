@@ -61,6 +61,7 @@
     \vspace{-5pt}
   }
 
+  \usepackage{multicol}
 
 \begin{document}
 % Set Document to Body Color
@@ -79,27 +80,21 @@
 % ========================================
 
 \begin{minipage}[t]{\textwidth}
+  {\Huge
+    Luke Sheard..
+  }
 
-    \begin{minipage}[t]{0.5\textwidth}
-        {\Huge
-          Luke Sheard
-        } \\
+  {\vspace{10pt}
+    ..is a British \textbf{software engineer at Redbox Digital} in London, a global ecommerce consultancy. Previously \textbf{he helped launch Outcomes.com} a medical technology company based in Berkeley, CA. He graduated the \textbf{University of York with first class honours} in Mathematics. He enjoys writing React.js and Node.js applications and is a big advocate of open source software.
+  }
 
-        {\vspace{-10pt}
-          Full stack engineer specializing in Node.js applications
-        }\\
-    \end{minipage}
-    \hspace{\fill}
-    \begin{minipage}[t]{0.4\textwidth}
-        \hspace{\fill}
-        \begin{tabular}{r|r}
-          \href{https://www.github.com/LukeSheard}{LukeSheard}            & \faGithub     \\
-          \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}    & \faLinkedin   \\
-          \href{mailto:me@lukesheard.com}{me@lukesheard.com}              & \faEnvelope   \\
-        \end{tabular}
-    \end{minipage}
+  \vspace{5pt}
 
-    \vspace{10pt}
+  | \faGithub   \hspace{5pt}   \href{https://www.github.com/LukeSheard}{LukeSheard}          \hspace{20pt}
+  | \faLinkedin \hspace{5pt}   \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}  \hspace{20pt}
+  | \faEnvelope \hspace{5pt}   \href{mailto:me@lukesheard.com}{me@lukesheard.com}
+
+  \vspace{20pt}
 \end{minipage}
 
 % ==================
@@ -115,21 +110,21 @@
   % ==================
   \section{Work Experience}
 
-  % Outcomes
-  \input{tex/positions/outcomes.tex}
+  % Redbox
+  \input{tex/positions/redbox.tex}
 
     % Rule Underneath
     \ruleLine
 
   % Outcomes
-  \input{tex/positions/freshDental.tex}
+  \input{tex/positions/outcomes.tex}
 
     % Rule Underneath
     \vspace{-10pt}
     \ruleLine
 
-  % Outcomes
-  \input{tex/positions/goodricke.tex}
+  % Fresh Dental
+  \input{tex/positions/freshDental.tex}
 
     % Rule Underneath
     \vspace{-10pt}
@@ -173,6 +168,9 @@
     % BSide
     \input{tex/extracurricular/bSide.tex}
 
+    % Goodricke
+    \input{tex/extracurricular/goodricke.tex}
+
     % HAZsoc
     \input{tex/extracurricular/hazSoc.tex}
 
@@ -192,9 +190,9 @@
     Frameworks \\
     {\small
       {\color{highlight}
-        Angular.js, Express.js, jQuery, Gulp.js,
+        Angular.js, Express.js, Gulp.js, React.js,
       }
-      React.js, NumpPy, SciPy, Matplotlib, Flask \\
+      jQuery, NumpPy, SciPy, Matplotlib, Flask \\
     }
 
     \vspace{5pt}
@@ -202,9 +200,9 @@
     3rd Part APIs \\
     {\small
       {\color{highlight}
-        Sendgrid, AWS,
+        AWS,
       }
-      Twilio
+      Sendgrid, Twilio
     }
 
     \hfill\textsc{\footnotesize{{\color{highlight} proficient} | prior experience}}
