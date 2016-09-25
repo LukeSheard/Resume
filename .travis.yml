@@ -13,9 +13,8 @@ install:
 - sudo apt-get -qq update
 - sudo apt-get install texlive
 - sudo apt-get install texlive-xetex
-- sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-- sudo apt-get install fonts-lato
-- ./bin/install-font.sh
+# - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
+# - ./bin/install-font.sh
 
 script:
 - mkdir _build
