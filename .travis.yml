@@ -12,8 +12,12 @@ before_install:
 install:
 - sudo apt-get -qq update
 - sudo apt-get install -y texlive-full
-- mkdir -p ~/.fonts/
-- cp -rf fonts/* ~/.fonts/
+
+- mkdir /tmp/SourceSansPro 
+- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.tar.gz -O "`echo SourceSansPro.tar.gz"
+- tar --extract --gzip --file SourceSansPro.tar.gz
+- sudo mkdir /usr/share/fonts/truetype/SourceSansPro
+- sudo cp -rf /tmp/SourceSansPro/. /usr/share/fonts/truetype/SourceSansPro/.
 - sudo fc-cache -f -v
 
 script:
