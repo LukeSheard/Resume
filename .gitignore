@@ -141,3 +141,5 @@ pythontex-files-*/
 # WinEdt
 *.bak
 *.sav
+
+_build
