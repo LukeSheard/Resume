@@ -1,12 +1,15 @@
 sudo: required
 dist: trusty
 
+notifications:
+  email: false
+
 before_install:
 - sudo apt-get -qq update
-- sudo add-apt-repository ppa:texlive-backports/ppa
 - sudo apt-get install texlive
 - sudo apt-get install texlive-xetex
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
+- sudo apt-get install fonts-lato
 script:
 - mkdir _build
-- xelatex -output-directory=_build -halt-on-error Luke_Sheard_Resume.tex
+- ./build.sh
