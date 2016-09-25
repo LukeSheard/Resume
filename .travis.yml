@@ -1,0 +1,10 @@
+sudo: required
+dist: trusty
+
+before_install:
+- sudo apt-get -qq update
+- sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
+- sudo apt-get install texlive-xetex
+script:
+- mkdir _build
+- xelatex -output-directory=_build -halt-on-error Luke_Sheard_Resume.tex
