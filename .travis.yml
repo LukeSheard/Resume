@@ -5,10 +5,6 @@ dist: trusty
 notifications:
   email: false
 
-before_install:
-- chmod +x ./bin/install-font.sh
-- chmod +x ./bin/build.sh
-
 install:
 # Install LaTeX
 - sudo apt-get -qq update
