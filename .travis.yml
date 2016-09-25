@@ -10,6 +10,9 @@ before_install:
 - sudo apt-get install texlive-xetex
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
 - sudo apt-get install fonts-lato
+- [ -d /usr/share/fonts/opentype ] || sudo mkdir /usr/share/fonts/opentype
+- sudo git clone https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp
+- sudo fc-cache -f -v
 script:
 - mkdir _build
 - ./build.sh
