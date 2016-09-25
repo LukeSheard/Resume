@@ -1,25 +1,30 @@
 sudo: required
 dist: trusty
-
 notifications:
   email: false
-
 install:
-# Install LaTeX
 - sudo apt-get -qq update
 - sudo apt-get install texlive
 - sudo apt-get install texlive-xetex
 - sudo apt-get install texlive-latex-recommended texlive-latex-extra
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-# Install Fonts
-- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip -O SourceSansPro.zip
-- unzip SourceSansPro.zip 
+- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip
+  -O SourceSansPro.zip
+- unzip SourceSansPro.zip
 - mkdir -p ~/.fonts
 - ls -al
 - cp -r source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
 - sudo fc-cache -f -v
-
 script:
 - mkdir _build
 - ls -al
 - xelatex -output-directory=_build -halt-on-error Luke_Sheard_Resume.tex
+deploy:
+  provider: releases
+  api_key:
+    secure: ahop9v3ZCI0iiuuoDf2AgJ0jl74Fd3CYJvTjDiyMDm5yNTHHuDweLK2Q64U4Z8h+glBahIzK1EPF4yQYT9q4nLGr+MoFT6qahQJ0d9fZisLqj6B2ecu9PDfE95AZ166k3bGsbwCPHmv/K6txb3oAlVcXddC54LQIpjtRSa7uvKmrXwSQaH2ZIZh59w99qZGtQQIo1GRTH5U9SLuoeZViyxrSoWRM/pEA3R/X8+GZ/OUe4MLI/+Q4FYsxNXjOhpE/o5/OqXF42zu90Pi7MDDSwpEKd30Z37Zt1KI/BYOUQ0Cl/tu0p96HN/yEZNGmGsXSJNYqFh9dce1yKrN2IBAHtmW0tWldDbFJ5VuoISacR97Dc6BDB6PJPOQHz/nezE8RXkMRHh/8wCp2jBrZy8as7Z14rewZ9OJHO4AL52f55RFxUQqAAe+Yk0e5hjq4BFkb3YGtUn+14OuUBA+Tup76bwBHXFul3/S2mv3oVTiPn3GCzDfOTU6eU9J/qf7snnepV2A53BlZRU+tduwW6vB9QYLyJ6dziqyzFVqGTh0glIbS5I5QCqtCOOllhVCuLx4NET1n6M1QuRVLgmOeowc72zroa5j9tF7GSy+pOstai2MllPXBiuKDtzR+GGc0/+Z4APZ5Ngc48fBJ8wrcHREdkROZUN/GKHIAy9DT4XVwd2s=
+  file: _build/Luke_Sheard_Resume.pdf
+  on:
+    repo: LukeSheard/Resume
+    tags: true
+  skip_cleanup: true
