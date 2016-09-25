@@ -19,4 +19,4 @@ install:
 
 script:
 - mkdir _build
-- ./build.sh
+- ./bin/build.sh
