@@ -2,9 +2,6 @@ language: ruby
 sudo: required
 dist: trusty
 
-env:
-  -FONT="SourceSansPro"
-
 notifications:
   email: false
 
@@ -22,7 +19,7 @@ install:
 - unzip SourceSansPro.zip 
 - mkdir -p ~/.fonts
 - ls -al
-- cp source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
+- cp -r source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
 - sudo fs-cache -f -v
 
 script:
