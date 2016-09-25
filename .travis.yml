@@ -19,9 +19,9 @@ install:
 - sudo apt-get install texlive-xetex
 # Install Fonts
 - wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip -O SourceSansPro.zip
-- unzip SourceSansPro.zip
+- unzip SourceSansPro.zip 
 - mkdir -p ~/.fonts
-- cp SourceSansPro ~/.fonts/
+- cp source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
 - sudo fs-cache -f -v
 
 script:
