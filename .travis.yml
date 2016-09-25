@@ -2,6 +2,9 @@ language: ruby
 sudo: required
 dist: trusty
 
+env:
+  -FONT="SourceSansPro"
+
 notifications:
   email: false
 
@@ -10,15 +13,16 @@ before_install:
 - chmod +x ./bin/build.sh
 
 install:
+# Install LaTeX
 - sudo apt-get -qq update
-- sudo apt-get install -y texlive-full
-
-- mkdir /tmp/SourceSansPro 
-- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.tar.gz -O "`echo SourceSansPro.tar.gz"
-- tar --extract --gzip --file SourceSansPro.tar.gz
-- sudo mkdir /usr/share/fonts/truetype/SourceSansPro
-- sudo cp -rf /tmp/SourceSansPro/. /usr/share/fonts/truetype/SourceSansPro/.
-- sudo fc-cache -f -v
+- sudo apt-get install texlive
+- sudo apt-get install texlive-xetex
+# Install Fonts
+- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip -O SourceSansPro.zip
+- unzip SourceSansPro.zip
+- mkdir -p ~/.fonts
+- cp SourceSansPro ~/.fonts/
+- sudo fs-cache -f -v
 
 script:
 - mkdir _build
