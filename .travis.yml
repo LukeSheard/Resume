@@ -10,8 +10,8 @@ install:
 - sudo apt-get -qq update
 - sudo apt-get install texlive
 - sudo apt-get install texlive-xetex
+- sudo apt-get install texlive-latex-recommended texlive-latex-extra
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-- sudo apt-get install dvipng
 # Install Fonts
 - wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip -O SourceSansPro.zip
 - unzip SourceSansPro.zip 
