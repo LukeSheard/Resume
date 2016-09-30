@@ -1,24 +1,29 @@
 sudo: required
 dist: trusty
+
 notifications:
   email: false
-install:
+
+before_install:
 - sudo apt-get -qq update
 - sudo apt-get install texlive
 - sudo apt-get install texlive-xetex
 - sudo apt-get install texlive-latex-recommended texlive-latex-extra
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip
-  -O SourceSansPro.zip
+
+install:
+- wget https://github.com/adobe-fonts/source-sans-pro/archive/2.020R-ro/1.075R-it.zip -O SourceSansPro.zip
 - unzip SourceSansPro.zip
 - mkdir -p ~/.fonts
 - ls -al
 - cp -r source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
 - sudo fc-cache -f -v
+
 script:
 - mkdir _build
 - ls -al
 - xelatex -output-directory=_build -halt-on-error Luke_Sheard_Resume.tex
+
 deploy:
   provider: releases
   api_key:
