@@ -19,10 +19,7 @@ install:
 - cp -r source-sans-pro-2.020R-ro-1.075R-it ~/.fonts/
 - sudo fc-cache -f -v
 
-script:
-- mkdir _build
-- ls -al
-- xelatex -output-directory=_build -jobname=luke-sheard -halt-on-error luke-sheard-resume.tex
+script: ./build
 
 deploy:
   provider: releases
