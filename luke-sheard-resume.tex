@@ -82,30 +82,9 @@
 % ========================================
 
 \begin{minipage}[t]{\textwidth}
-  {\Huge
-    Luke Sheard..
-  }
-
-  {\vspace{10pt}
-    ..is a British \textbf{software engineer at J.P. Morgan Chase \& Co.}, a global financial services firm. Previously he's worked for \textbf{Redbox Digital} and \textbf{helped launched Outcomes.com}, a medical technology startup. He is passionate about open source software and using technology for social good. 
-  }
-
-  \vspace{5pt}
-
-  \faGithub
-  \hspace{3pt}
-  \href{https://www.github.com/LukeSheard}{LukeSheard}
-  \hspace{20pt}
-  \faLinkedin
-  \hspace{3pt}
-  \href{http://www.linkedin.com/in/lukesheard}{/in/LukeSheard}
-  \hspace{20pt}
-  \faEnvelope
-  \hspace{3pt}
-  \href{mailto:me@lukesheard.com}{me@lukesheard.com}
-
-  \vspace{20pt}
+  \input{./src/header.tex}
 \end{minipage}
+\vspace{15pt}
 
 % ==================
 %  Body
@@ -121,31 +100,31 @@
   \section{Work Experience}
 
   % JP Morgan
-  \input{./tex/positions/jpmorgan.tex}
+  \input{./src/positions/jpmorgan.tex}
 
     % Rule Underneath
     \ruleLine
 
   % Redbox
-  \input{./tex/positions/redbox.tex}
+  \input{./src/positions/redbox.tex}
 
     % Rule Underneath
     \ruleLine
 
   % Outcomes
-  \input{./tex/positions/outcomes.tex}
+  \input{./src/positions/outcomes.tex}
 
     % Rule Underneath
     \ruleLine
 
   % Fresh Dental
-  \input{./tex/positions/fresh-dental.tex}
+  \input{./src/positions/fresh-dental.tex}
 
     % Rule Underneath
     \ruleLine
 
   % National Trust
-  \input{./tex/positions/blurtit.tex}
+  \input{./src/positions/blurtit.tex}
 
 \end{minipage}
 \hfill
@@ -155,25 +134,25 @@
   % ==================
   \vspace{0pt}
 
+  %  Open Source
+  % ==================
+  \section{Open Source}
+
+    \input{./src/open-source/inferno}
+
+    \input{./src/open-source/boilerplate}
+
+    \input{./src/open-source/perspective}
+
   %  Education
   % ==================
   \section{Education}
 
     % York
-    \input{./tex/education/york.tex}
+    \input{./src/education/york.tex}
 
     % Berkeley
-    \input{./tex/education/berkeley.tex}
-
-  %  Open Source
-  % ==================
-  \section{Open Source}
-
-    \input{./tex/open-source/inferno}
-
-    \input{./tex/open-source/boilerplate}
-
-    \input{./tex/open-source/gatsby}
+    \input{./src/education/berkeley.tex}
 
   %  Skills
   % ==================
@@ -182,7 +161,7 @@
     \textbf{Languages} \\
     {\small
       {\color{highlight}
-        \textbf{Typescript, Python},  Javascript (ES5/6/7), Java, (S)CSS,
+        \textbf{Typescript, Javascript, Python}, Java, CSS,
       }
       LaTeX, C++
     }
@@ -191,16 +170,16 @@
 
     \textbf{Technologies} \\
     {\small
-      {\color{highlight}\textbf{
-        React, Inferno, Git, MongoDB
-      }}
+      {\color{highlight}
+        \textbf{React, Inferno, Git, MongoDB}
+      }
       {\color{highlight}
         AWS, Sendgrid / Mailgun, Twilio,
       }
-      Redis, SVN
+      Redis, SQL, SVN
     }
 
-    \hfill\textsc{\footnotesize{\textbf{preferred} | {\color{highlight} proficient} | prior experience}}
+    \hfill\textsc{\footnotesize{{\color{highlight} \textbf{preferred}} | {\color{highlight} proficient} | prior experience}}
   }
 \end{minipage}
 \end{document}
