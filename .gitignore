@@ -144,3 +144,6 @@ pythontex-files-*/
 
 _build
 .vscode
+
+# Don't upload any pdf files we've build in the process of working on the repo
+*.pdf
