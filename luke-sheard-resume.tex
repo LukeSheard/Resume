@@ -10,62 +10,65 @@
 
 \pagestyle{empty}
 
-  % =====================
-  %  Fonts and Colors
-  % =====================
-  \usepackage{hyperref}
+% =====================
+%  Fonts and Colors
+% =====================
+\usepackage{hyperref}
 
-  \hypersetup{colorlinks, urlcolor=linkcolor, linkcolor=linkcolor}
+\hypersetup{colorlinks, urlcolor=linkcolor, linkcolor=linkcolor}
 
-  % Colors
-  \usepackage[usenames,dvipsnames]{xcolor}
+% Colors
+\usepackage[usenames,dvipsnames]{xcolor}
 
-  \definecolor{lines}{HTML}{ababab}
-  \definecolor{body}{HTML}{444444}
-  \definecolor{headings}{HTML}{28429e}
-  \definecolor{highlight}{HTML}{164479}
-  \definecolor{linkcolor}{HTML}{3387ec}
+\definecolor{lines}{HTML}{ababab}
+\definecolor{body}{HTML}{444444}
+\definecolor{headings}{HTML}{28429e}
+\definecolor{highlight}{HTML}{164479}
+\definecolor{linkcolor}{HTML}{3387ec}
 
-  % Fonts
-  \usepackage{fontspec, fontawesome}
+% Fonts
+\usepackage{fontspec, fontawesome}
 
-  \defaultfontfeatures{Mapping=tex-text}
-  \setmainfont{Source Sans Pro}
-  \setsansfont{Source Sans Pro}
-  \setromanfont[Mapping=tex-text]{Source Sans Pro}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Source Sans Pro}
+\setsansfont{Source Sans Pro}
+\setromanfont[Mapping=tex-text]{Source Sans Pro}
 
-  % ==================
-  %  Title & Headings
-  % ==================
-  \usepackage{titlesec}
+% ==================
+%  Title & Headings
+% ==================
+\usepackage{titlesec}
 
-  \titleformat{\section}{
-    \color{headings}
-    \scshape
-    \Large
-    \raggedright
-  }{}{0em}{}[
-    \color{lines}
-    \titlerule
-  ]
+\titleformat{\section}{
+	\color{headings}
+   	\scshape
+   	\Large
+   	\raggedright
+}{}{0em}{}[\color{lines}\titlerule]
 
-  \titlespacing{\section}{0pt}{0pt}{5pt}
+\titlespacing{\section}{0pt}{0pt}{5pt}
 
-  % ==================
-  %  Custom Commands
-  % ==================
-  \newcommand{\ruleLine}{
-    \begin{center}
-      \color{lines}
-      \rule{0.5\textwidth}{.4pt}
-    \end{center}
-    \vspace{-5pt}
-  }
+% ==================
+%  Custom Commands
+% ==================
+\newcommand{\ruleLine}{
+   	\begin{center}
+  	\color{lines}
+ 	\rule{0.5\textwidth}{.4pt}
+	\end{center}
+}
 
-  \usepackage{multicol}
+\newcommand{\social}[3]{
+   	#1
+   	\hspace{10pt}
+	\href{#2}{#3}
+}
+
+\usepackage{multicol}
 
 \begin{document}
-% Set Document to Body Color
+
+% Set Document to Body Colour
 \color{body}
 
 % Ignore Whitespace
@@ -81,93 +84,102 @@
 %  Title Section for name and information
 % ========================================
 
-\begin{minipage}[t]{\textwidth}
-  \input{./src/header.tex}
-\end{minipage}
+{\Huge Luke Sheard}
+
+\vspace{10pt}
+
+is a software engineer working in the \textbf{Athena Core Platform Team at J.P. Morgan Chase \& Co.}. Previously he helped launch \textbf{Outcomes.com}, a medical technology startup. He graduated with first class Honors in Mathematics from the \textit{University of York} with a year abroad the \textit{University of California, Berkeley}.
+
+\vspace{5pt}
+
+\social{\faGithub}{https://www.github.com/LukeSheard}{LukeSheard}
+\social{\faLinkedin}{https://www.linkedin.com/in/lukesheard}{/in/LukeSheard}
+\social{\faEnvelope}{mailto:me@lukesheard.com}{me@lukesheard.com}
+
 \vspace{15pt}
 
 % ==================
 %  Body
 % ==================
-\begin{minipage}[t]{0.6\textwidth}
-  % ==================
-  %  Left Column
-  % ==================
-  \vspace{0pt}
-
+\begin{minipage}[t]{0.55\textwidth}
   %  Work Experience
   % ==================
   \section{Work Experience}
+  
+  	% JP Morgan
+  	\input{./src/positions/jpmorgan}
 
-  % JP Morgan
-  \input{./src/positions/jpmorgan.tex}
+ 	\ruleLine
 
-    % Rule Underneath
-    \ruleLine
+  	% Redbox
+  	\input{./src/positions/redbox}
 
-  % Redbox
-  \input{./src/positions/redbox.tex}
+   	% Rule Underneath
+  	\ruleLine
 
-    % Rule Underneath
-    \ruleLine
-
-  % Outcomes
-  \input{./src/positions/outcomes.tex}
-
+  	% Outcomes
+  	\input{./src/positions/outcomes}
+  	
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.38\textwidth}
-  % ==================
-  %  Right Column
-  % ==================
-  \vspace{0pt}
+\begin{minipage}[t]{0.43\textwidth}
 
-  %  Skills
-  % ==================
-  \section{Skill Base}
-  {\raggedright
-    \textbf{Languages} \\
-    {\small
-      {\color{highlight}
-        \textbf{Javascript/TypeScript/Node.JS, Python}, Java,
+	%  Skills
+	% ==================
+	\section{Skill Base}
+  	\textbf{Languages} \\
+  	{\small
+  		{\color{highlight}
+			Python, TypeScript, Node.JS,
       }
-      LaTeX, C++
-    }
+		Java, LaTeX, C++
+ 	}
 
-    \vspace{5pt}
+  	\vspace{5pt}
 
-    \textbf{Technologies} \\
-    {\small
-      {\color{highlight}
-        \textbf{React, Inferno, Git, MongoDB}
-      }
-      {\color{highlight}
-        Linux, SQL, SVN
-      }
-      AWS,Redis
-    }
+  	\textbf{Technologies} \\
+  	{\small
+   		{\color{highlight}
+        	React, Git, Linux, SQL, SVN
+      	}
+      	AWS, Redis, MongoDB
+  	}
 
-    \hfill\textsc{\footnotesize{{\color{highlight} \textbf{preferred}} | {\color{highlight} proficient} | prior experience}}
-  }
+  	\vspace{5pt}
 
-  %  Open Source
-  % ==================
-  \section{Open Source}
+  	{\hfill\raggedleft\textsc{
+   		\footnotesize{
+   			{\color{highlight} proficient} | 
+   			prior experience
+   		}
+   	}}
 
-    \input{./src/open-source/inferno}
+\vspace{10pt}
 
-    \input{./src/open-source/boilerplate}
+	%  Open Source
+	% ==================
+	\section{Open Source}
 
-    \input{./src/open-source/perspective}
+	\input{./src/open-source/perspective}
 
-  %  Education
-  % ==================
-  \section{Education}
+  	\vspace{8pt}
 
-    % York
-    \input{./src/education/york.tex}
+  	\input{./src/open-source/inferno}
 
-    % Berkeley
-    \input{./src/education/berkeley.tex}
+\vspace{10pt}
+
+	%  Education
+	% ==================
+	\section{Education}
+
+	% York
+  	\input{./src/education/york}
+  	
+  	\vspace{8pt}
+
+  	% Berkeley
+   	\input{./src/education/berkeley}
+   	
 \end{minipage}
+
 \end{document}
