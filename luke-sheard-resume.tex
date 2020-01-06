@@ -10,6 +10,10 @@
 
 \pagestyle{empty}
 
+% No separation between itemize bullet points
+\usepackage{enumitem}
+\setlist{nolistsep}
+
 % =====================
 %  Fonts and Colors
 % =====================
@@ -102,17 +106,15 @@ is a software engineer working in the \textbf{Athena Core Platform Team at J.P. 
 %  Body
 % ==================
 \begin{minipage}[t]{0.55\textwidth}
+
+\raggedright
+
   %  Work Experience
   % ==================
   \section{Work Experience}
   
   	% JP Morgan
   	\input{./src/positions/jpmorgan}
-
- 	\ruleLine
-
-  	% Redbox
-  	\input{./src/positions/redbox}
 
    	% Rule Underneath
   	\ruleLine
@@ -123,6 +125,22 @@ is a software engineer working in the \textbf{Athena Core Platform Team at J.P. 
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.43\textwidth}
+
+\raggedright
+
+	%  Education
+	% ==================
+	\section{Education}
+
+	% York
+  	\input{./src/education/york}
+  	
+  	\vspace{8pt}
+
+  	% Berkeley
+   	\input{./src/education/berkeley}
+
+\vspace{10pt}
 
 	%  Skills
 	% ==================
@@ -167,18 +185,6 @@ is a software engineer working in the \textbf{Athena Core Platform Team at J.P. 
   	\input{./src/open-source/inferno}
 
 \vspace{10pt}
-
-	%  Education
-	% ==================
-	\section{Education}
-
-	% York
-  	\input{./src/education/york}
-  	
-  	\vspace{8pt}
-
-  	% Berkeley
-   	\input{./src/education/berkeley}
    	
 \end{minipage}
 
