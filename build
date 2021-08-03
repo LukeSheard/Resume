@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 
 mkdir _build
-xelatex -output-directory=_build -jobname=luke-sheard -halt-on-error luke-sheard-resume.tex
+
+xelatex \
+    -output-directory=_build \
+    -jobname=luke-sheard \
+    -halt-on-error \
+    luke-sheard-resume.tex
