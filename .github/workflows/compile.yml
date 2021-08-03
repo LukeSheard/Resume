@@ -1,0 +1,22 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Compile
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  Compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: xu-cheng/latex-action@v2
+        with:
+          root_file: luke-sheard-resume.tex
+          latexmk_use_xelatex: true
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Resume
+          path: _build
